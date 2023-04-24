@@ -75,6 +75,10 @@ a {
     text-decoration: none;
 }
 
+h2,span,a {
+    margin-left: 5px;
+}
+
 .flex-box {
     display: flex;
     flex-wrap: wrap;
