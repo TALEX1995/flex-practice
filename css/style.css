@@ -1,0 +1,82 @@
+/* Reset */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Utilities */
+
+.text-center {
+    text-align: center;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-blue {
+    color: #2c89c9;
+}
+
+/* Header */
+
+h1 {
+    color: #e53170;
+    font-size: 40px;
+    padding-top: 40px;
+    font-weight: 900;
+}
+
+
+/* Generic */
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Main */
+
+p {
+    font-size: 20px;
+    padding: 40px 0;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card {
+    display: flex;
+    margin-bottom: 10px;
+    width: calc(100% / 3 - 10px);
+    background-color: black;
+    margin: 5px 5px;
+}
+
+img {
+    width: 100px;
+}
+
+h2,span {
+    color: white
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
