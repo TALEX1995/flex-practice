@@ -58,9 +58,10 @@ p {
 .card {
     display: flex;
     margin-bottom: 10px;
-    width: calc(100% / 3 - 10px);
+    /* width: calc(100% / 3 - 10px); */
     background-color: black;
     margin: 5px 5px;
+    flex-grow: 1;
 }
 
 img {
